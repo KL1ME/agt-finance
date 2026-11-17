@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kl1me.github.io/agt-finance/sitemap.xml
