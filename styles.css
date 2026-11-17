@@ -421,168 +421,10 @@ h2 {
 .about-copy .text-link {
   margin-top:25px
 }
-.transparency {
-  background:var(--paper)
-}
-.transparency .section-heading {
-  margin-bottom:48px
-}
-.legal-grid {
-  display:grid;
-  grid-template-columns:1.7fr 1fr;
-  gap:7%;
-  align-items:start
-}
 .small-heading {
   font-size:10px;
   letter-spacing:.11em;
   font-weight:600
-}
-.company-details>.small-heading {
-  padding-bottom:24px;
-  border-bottom:1px solid #bac3bd
-}
-.details-list {
-  margin:0
-}
-.details-list>div {
-  display:grid;
-  grid-template-columns:1fr 1.4fr;
-  gap:24px;
-  padding:14px 0;
-  border-bottom:1px solid var(--line);
-  font-size:12px;
-  line-height:1.75
-}
-.details-list dt {
-  color:var(--muted)
-}
-.details-list dd {
-  margin:0;
-  overflow-wrap:anywhere
-}
-.details-list dd>a {
-  border-bottom:1px solid #afb9af
-}
-.details-list dd>a span {
-  margin-left:6px
-}
-.partner-panel {
-  background:#e7ebe3;
-  padding:33px 29px
-}
-.partner-avatar {
-  border:1px solid #a4b09d;
-  border-radius:50%;
-  width:49px;
-  height:49px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-family:var(--serif);
-  font-size:18px;
-  color:#66745e;
-  margin-bottom:30px
-}
-.partner-panel>.small-heading {
-  font-size:9px;
-  color:#586653;
-  margin-bottom:17px
-}
-.partner-panel h3 {
-  font-family:var(--serif);
-  font-size:35px;
-  line-height:1.2;
-  letter-spacing:-.03em
-}
-.partner-role {
-  font-size:11px;
-  color:var(--muted);
-  margin:17px 0 28px
-}
-.partner-details {
-  margin:0;
-  border-top:1px solid #c6cec0
-}
-.partner-details>div {
-  padding:15px 0;
-  border-bottom:1px solid #c6cec0;
-  font-size:12px
-}
-.partner-details dt {
-  font-size:10px;
-  color:#5c6857;
-  margin-bottom:4px
-}
-.partner-details dd {
-  margin:0;
-  overflow-wrap:anywhere
-}
-.pending-address {
-  color:#695c3f
-}
-.activity-details {
-  margin-top:45px;
-  border-top:1px solid #bcc6bf;
-  border-bottom:1px solid #bcc6bf
-}
-.activity-details summary {
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:20px;
-  padding:22px 0;
-  font-size:14px;
-  cursor:pointer;
-  list-style:none
-}
-.activity-details summary::-webkit-details-marker {
-  display:none
-}
-.details-plus {
-  font-size:24px;
-  font-weight:300;
-  line-height:1
-}
-.activity-details[open] .details-plus {
-  transform:rotate(45deg)
-}
-.activity-list {
-  list-style:none;
-  margin:0;
-  padding:0 0 18px
-}
-.activity-list li {
-  display:flex;
-  gap:32px;
-  padding:15px 0;
-  border-top:1px solid var(--line);
-  font-size:12px;
-  color:var(--muted)
-}
-.activity-list code {
-  font-size:12px;
-  color:var(--ink);
-  padding-top:2px;
-  min-width:65px
-}
-.activity-list strong {
-  display:block;
-  font-size:10px;
-  margin-top:4px;
-  font-weight:500;
-  color:var(--ink)
-}
-.source-note {
-  font-size:11px;
-  color:var(--muted);
-  line-height:1.9;
-  max-width:790px;
-  margin-top:22px
-}
-.source-note a {
-  text-decoration:underline;
-  text-underline-offset:3px
 }
 .contact {
   background:var(--ink);
@@ -835,20 +677,6 @@ body:has(.privacy-dialog[open]) {
   .about-copy .lead {
     font-size:19px
   }
-  .legal-grid {
-    gap:5%;
-    grid-template-columns:1.5fr 1fr
-  }
-  .partner-panel {
-    padding:28px 24px
-  }
-  .details-list>div {
-    gap:16px;
-    grid-template-columns:1fr 1.25fr
-  }
-  .partner-panel h3 {
-    font-size:31px
-  }
   .contact-grid {
     gap:9%
   }
@@ -1031,47 +859,6 @@ body:has(.privacy-dialog[open]) {
     font-size:17px
   }
   .about-copy p {
-    font-size:12px
-  }
-  .legal-grid {
-    grid-template-columns:1fr;
-    gap:35px
-  }
-  .partner-panel {
-    padding:28px;
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    column-gap:32px
-  }
-  .partner-avatar {
-    grid-column:1;
-    grid-row:1;
-    margin-bottom:24px
-  }
-  .partner-panel>.small-heading {
-    grid-column:1;
-    grid-row:2
-  }
-  .partner-panel h3 {
-    grid-column:1;
-    grid-row:3;
-    font-size:34px
-  }
-  .partner-role {
-    grid-column:1;
-    grid-row:4;
-    align-self:start
-  }
-  .partner-details {
-    grid-column:2;
-    grid-row:1/6;
-    border-top:0
-  }
-  .partner-details>div:first-child {
-    padding-top:0
-  }
-  .details-list>div {
-    grid-template-columns:1fr 1.65fr;
     font-size:12px
   }
   .contact-grid {
@@ -1259,64 +1046,8 @@ body:has(.privacy-dialog[open]) {
     font-size:12px;
     margin-top:20px
   }
-  .legal-grid {
-    gap:29px
-  }
-  .details-list>div {
-    grid-template-columns:1fr 1.2fr;
-    gap:18px;
-    padding:13px 0;
-    font-size:11px
-  }
-  .details-list dt {
-    font-size:10px
-  }
   .small-heading {
     font-size:9px
-  }
-  .company-details>.small-heading {
-    padding-bottom:20px
-  }
-  .partner-panel {
-    display:block;
-    padding:28px
-  }
-  .partner-panel>.small-heading {
-    margin-top:0
-  }
-  .partner-panel h3 {
-    font-size:35px
-  }
-  .partner-role {
-    font-size:11px;
-    margin:17px 0 25px
-  }
-  .partner-details {
-    border-top:1px solid #c6cec0
-  }
-  .partner-details>div:first-child {
-    padding-top:15px
-  }
-  .partner-avatar {
-    margin-bottom:28px
-  }
-  .activity-details {
-    margin-top:31px
-  }
-  .activity-details summary {
-    font-size:12px;
-    line-height:1.6
-  }
-  .activity-list li {
-    gap:17px;
-    font-size:11px
-  }
-  .activity-list code {
-    font-size:11px;
-    min-width:59px
-  }
-  .source-note {
-    font-size:10px
   }
   .contact-grid {
     grid-template-columns:1fr;
@@ -1424,7 +1155,7 @@ body:has(.privacy-dialog[open]) {
   .section,.hero {
     padding:25px 0
   }
-  .hero-grid,.about-grid,.contact-grid,.legal-grid {
+  .hero-grid,.about-grid,.contact-grid {
     display:block
   }
   .hero h1 {
@@ -1433,13 +1164,9 @@ body:has(.privacy-dialog[open]) {
   h2 {
     font-size:27px
   }
-  .contact,.footer,.partner-panel {
+  .contact,.footer {
     color:#000;
     background:#fff
-  }
-  .partner-panel {
-    margin-top:25px;
-    border:1px solid #bbb
   }
   .contact-info {
     padding-top:20px
@@ -1456,24 +1183,12 @@ body:has(.privacy-dialog[open]) {
   .footer-bottom {
     border-color:#bbb
   }
-  .activity-details {
-    display:none
-  }
   .service-row {
     break-inside:avoid
   }
   .section-heading {
     margin-bottom:20px
   }
-  .details-list>div {
-    break-inside:avoid
-  }
-}
-.verified-date {
-  display:block;
-  font-size:10px;
-  color:var(--muted);
-  margin-top:3px
 }
 .contact-extra {
   max-width:370px;
